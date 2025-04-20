@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "traductor-tui"
+version = "5.1.0"
+description = "Traductor en terminal de dos paneles (prompt_toolkit + transformers)."
+authors = [{name = "Gabriel"}]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+
+dependencies = [
+  "torch>=2.2",
+  "transformers>=4.40",
+  "prompt_toolkit>=3.0",
+]
+
+[project.scripts]
+traductor = "traductor.cli:main"
+
+[tool.black]
+line-length = 88
+
+[tool.mypy]
+strict = true

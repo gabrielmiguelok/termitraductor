@@ -1,0 +1,2 @@
+[console_scripts]
+traductor = traductor.cli:main

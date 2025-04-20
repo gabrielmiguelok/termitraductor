@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: traductor-tui
+Version: 5.1.0
+Summary: Traductor en terminal de dos paneles (prompt_toolkit + transformers).
+Author: Gabriel
+License: MIT
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch>=2.2
+Requires-Dist: transformers>=4.40
+Requires-Dist: prompt_toolkit>=3.0
